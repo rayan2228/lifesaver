@@ -15,7 +15,8 @@ if (count($images) > 0) {
             $mimetype = $groups['mime'];
             # Generating a random filename
             $filename =
-                Str::limit($slug, 5) . '_' . Auth::guard('admin')->id() . '_' . time() . '_' . Carbon::now()->format('Y');
+                Str::limit($slug, 5) . '_' . Auth::guard('admin')->id() . '_' . time() .
+                Str::random(8) . '_' . Carbon::now()->format('Y');
             $filepath = "uploads/post_thumbnail/$filename.$mimetype";
             $image = Image::make($src)
                 ->encode($mimetype, 100)
