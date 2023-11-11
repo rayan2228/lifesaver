@@ -1,5 +1,6 @@
 ### text editor update
-` $post_description = $request->post_description;
+
+`$post_description = $request->post_description;
         $old_post_description = $post->post_description;
         if ($old_post_description !== $post_description) {
             libxml_use_internal_errors(true);
