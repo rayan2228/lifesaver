@@ -29,7 +29,7 @@ function RegistrationView() {
   const checkValidation = () => {
     let errors = validation;
 
-    //first Name validation
+    first Name validation
     if (!inputValues.fName.trim()) {
       errors.fName = "First name is required";
     } else {
