@@ -1,7 +1,8 @@
 ### React js Form Validation
 
 
-` import React, { useEffect, useState } from "react";
+``` javascript
+import React, { useEffect, useState } from "react";
 
 function RegistrationView() {
   const [inputValues, setInputValue] = useState({
@@ -175,4 +176,5 @@ function RegistrationView() {
   );
 }
 
-export default RegistrationView; `
+export default RegistrationView;
+```
