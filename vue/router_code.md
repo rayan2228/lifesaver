@@ -1,7 +1,8 @@
 ### This File is show how to create vue router file
 
 #### Also Here we see that how to make 404 page 
-````
+
+``` vue
 import { createWebHistory,createRouter } from "vue-router";
 import Home from "./components/Home.vue";
 import signUp from "./components/signUp.vue";
@@ -44,4 +45,4 @@ const router = createRouter({
 
 export default router;
 
-````
+```

@@ -1,6 +1,6 @@
 ### This file is for mounted localstorage 
 
-`````
+``` vue
 
 #### How to store data in localstorage
 
@@ -20,4 +20,4 @@ let selectAuth = JSON.parse(localStorage.getItem('users'))
 this.authuser = selectAuth.name // here this.authuser is blank array where i push get item data
 
 
-`````
+```

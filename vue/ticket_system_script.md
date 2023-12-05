@@ -1,6 +1,6 @@
 ### This File we see that full ticket system script code
 
-````
+``` vue
 
 <script>
 export default {
@@ -258,4 +258,4 @@ export default {
 }
 </script>
 
-````
+```

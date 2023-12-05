@@ -1,7 +1,6 @@
 ### This README file for Check Password or Image Update Code
 
-``` 
-#### Password Update
+``` laravel
 
     public function password_update(Request $request){
         $request->validate([
@@ -20,9 +19,6 @@
         }
 
     }
-
-
-#### Image Update
 
     public function image_update(Request $request){
 
