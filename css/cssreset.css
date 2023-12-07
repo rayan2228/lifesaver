@@ -4,10 +4,12 @@
   padding: 0;
   margin: 0;
 }
+
 q:before,
 q:after {
   content: "";
 }
+
 html,
 body,
 h1,
@@ -50,9 +52,11 @@ img {
   max-width: 100%;
   display: block;
 }
+
 input,
 button,
 textarea,
 select {
   font: inherit;
+  /* margin */
 }
