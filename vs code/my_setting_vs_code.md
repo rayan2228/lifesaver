@@ -1,6 +1,6 @@
 ## vs code json file
 
-`
+``` json
 {
 "files.autoSave": "onFocusChange",
 "workbench.editor.enablePreview": false,
@@ -152,4 +152,4 @@
 "compounds": []
 }
 }
-`
+```
