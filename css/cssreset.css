@@ -1,3 +1,4 @@
+``` CSS 
 *,
 *::before,
 *::after {
@@ -60,3 +61,4 @@ select {
   font: inherit;
   /* margin */
 }
+```
