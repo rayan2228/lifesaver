@@ -17,3 +17,9 @@
   ]
 }
 ```
+
+### Create a vercel.json file and paste this code for the 404 error
+
+``` json
+{ "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
+```
